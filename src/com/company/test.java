@@ -35,9 +35,13 @@ public class test {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("blazemeter.apiKey", API_KEY);
         capabilities.setCapability("blazemeter.apiSecret", API_SECRET);
-        capabilities.setCapability("blazemeter.reportName", "First functional test from IDE");
+        capabilities.setCapability("blazemeter.reportName", "CWT 20220714");
         capabilities.setCapability("blazemeter.sessionName", "firefox browser test");
         capabilities.setCapability("browserName", "firefox");
+//        capabilities.setCapability("blazemeter.locationId ", "us-east-1");
+        capabilities.setCapability("blazemeter.locationId ", "harbor-5d25f94f9950ce73cd105f53");
+
+
 
 
         URL url = new URL(curl);
