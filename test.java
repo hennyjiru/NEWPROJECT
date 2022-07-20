@@ -33,7 +33,7 @@ public class test {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("blazemeter.apiKey", API_KEY);
         capabilities.setCapability("blazemeter.apiSecret", API_SECRET);
-        capabilities.setCapability("blazemeter.reportName", "CWT 20220714");
+        capabilities.setCapability("blazemeter.reportName", "CWT FROM JENKINS");
         capabilities.setCapability("blazemeter.sessionName", "firefox browser test");
         capabilities.setCapability("browserName", "firefox");
 //        capabilities.setCapability("blazemeter.locationId ", "us-east-1");
